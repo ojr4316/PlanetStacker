@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://c4seuepa16pkb"]
+
+[ext_resource type="Texture2D" uid="uid://162dgfwltsgn" path="res://Assets/block.png" id="1_v8821"]
+[ext_resource type="Script" path="res://Scripts/Block.gd" id="2_wt45e"]
+
+[node name="Block" type="TextureRect"]
+offset_left = -364.0
+offset_top = 79.0
+offset_right = -324.0
+offset_bottom = 119.0
+texture = ExtResource("1_v8821")
+script = ExtResource("2_wt45e")

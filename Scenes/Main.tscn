@@ -1,0 +1,20 @@
+[gd_scene load_steps=3 format=3 uid="uid://celq0prdc7ejd"]
+
+[ext_resource type="Script" path="res://Scripts/Grid.gd" id="1_2vhm3"]
+[ext_resource type="Script" path="res://Scripts/Game.gd" id="1_8d6jl"]
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_8d6jl")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="Grid" type="Control" parent="CanvasLayer"]
+layout_mode = 3
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_2vhm3")
